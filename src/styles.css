@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+  /* margin: 0px;
+  padding: 0px; */
+}
+.header {
+  font-family: "Courgette", cursive;
+  font-size: 4.5rem;
+  text-shadow: 5px 10px 10px var(--div-background);
+  color: var(--text-color);
+  text-align: center;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 70%;
+  margin: auto;
+  padding: 2rem;
+  /* background-color: #40ced0; */
+}
+.hr {
+  height: 5px;
+  background-color: #44ffaa;
+}
+
+.logoImg {
+  max-width: auto;
+  max-height: 100%;
+}
+.genreBtn {
+  background-color: #fcb424;
+
+  border-radius: 7px;
+  font-size: 18px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0.3rem;
+  margin: 0 1.5rem 0 0;
+}
+ul {
+  padding-inline-start: 0;
+}
+li {
+  text-align: justify;
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid #44ffaa;
+  width: auto;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+  background-color: #078587;
+}
+.imgDiv {
+  border-radius: 5%;
+  display: block;
+  margin-left: auto;
+  max-width: 80%;
+  height: auto;
+}
+ul li div:hover img {
+  transform: scale(1.85);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition-delay: 0.3s;
+}
